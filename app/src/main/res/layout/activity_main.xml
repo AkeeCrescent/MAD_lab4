@@ -11,20 +11,18 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/textview1"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Enter Email" />
+        android:hint="@string/Enter_name" />
 
     <EditText
-        android:id="@+id/textview2"
+        android:id="@+id/tv2"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginLeft="16dp"
@@ -32,11 +30,11 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Enter Email" />
+        android:hint="@string/Enter_email"
+        android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/textview3"
+        android:id="@+id/tv3"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginLeft="16dp"
@@ -44,11 +42,11 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Enter Password" />
+        android:hint="@string/Enter_password"
+        android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/textview4"
+        android:id="@+id/tv4"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginLeft="16dp"
@@ -56,8 +54,8 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Re-enter Password" />
+        android:hint="@string/Renter_password"
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/button1"
@@ -78,5 +76,4 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:text="CANCEL" />
-
 </LinearLayout>

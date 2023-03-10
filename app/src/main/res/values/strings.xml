@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">LAB04</string>
+    <string name="Enter_name">Enter name</string>
+    <string name="Enter_email">Enter email</string>
+    <string name="Enter_password">Enter password</string>
+    <string name="Renter_password">Re-enter password</string>
+
+
+
+
 </resources>
